@@ -1,0 +1,282 @@
+/**
+ *  elementui组件样式封装   
+ *
+ *  author:lijian 
+ */
+
+
+ /* button按钮 */
+ /deep/ .el-button{
+    width: 60px;
+    height: 28px;
+    background: #408ffb;
+    color: #fff;
+    border:none;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0;
+    border-radius: 0;
+}
+/* /deep/ .el-button:hover{
+    background: #408ffb;
+    color: #fff;
+}
+/deep/ .el-button:focus{
+    background-color: #408ffb;
+    color: #fff;
+}  */
+
+/* input输入框 */
+/deep/ .el-input{
+    width: 140px;
+    height: 26px;
+    font-size: 12px;
+}
+/deep/ .el-input__inner {
+   height: 26px !important;
+}
+/deep/ .el-input__inner{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f2f2f2;
+    color: #333;
+    border-radius: 0;
+    outline: none;
+    line-height: 0;
+    background-color: #fff;
+}
+/deep/ .el-input__inner:hover {
+    border-color: #f2f2f2;
+}
+/deep/ .el-input__inner:focus {
+    border-color: #f2f2f2;
+}
+
+
+/* select下拉列表 */
+/deep/ .el-select{
+    
+}
+/deep/ .el-select .el-input__inner{
+    background: #f6f8f9;
+    outline: none;
+}
+/deep/ .el-select .el-input__inner:hover{
+    background: #f6f8f9;
+    border-color: #f2f2f2;
+}
+/deep/.el-select .el-input.is-focus .el-input__inner{
+    border-color: #f2f2f2;
+}
+/deep/  .is-focus {
+    border-color: #f2f2f2;
+}
+/deep/ .el-select .el-input--suffix:hover{
+    border-color: #f2f2f2;
+}
+/deep/ .el-select .el-input--suffix:focus{
+    border-color: #f2f2f2;
+}
+/deep/ .el-select .el-input .el-select__caret{
+    color: #637f9f;
+}
+/deep/  .el-select .el-input .el-input__icon{
+    line-height: 0;
+}
+/deep/ .el-select:hover .el-input__inner{
+    border-color: #f2f2f2;
+}
+/deep/ .el-icon-arrow-up:before{
+    content: "";
+    position: absolute;
+    top:5px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #637f9f;
+}
+/deep/ .el-select .el-input .el-select__caret.is-reverse{
+    transform: rotate(180deg);
+}
+
+
+/* table表格 */
+/* /deep/ .el-table{
+    border: 1px solid #f2f2f2;
+    border-bottom: none;
+}
+/deep/ .el-table th.is-leaf{
+  background:#eef0f5; 
+  border-bottom: 1px solid #f2f2f2;
+  height: 36px;
+}
+/deep/ .el-table thead{
+  color:#333333;
+  font-size: 12px;
+  font-weight: 500;
+}
+/deep/ .el-table tr{
+   background: #fafbff;
+}
+/deep/ .el-table--striped .el-table__body tr.el-table__row--striped td {
+    background: #ffffff;
+}
+/deep/ .el-table td,.building-top .el-table th.is-leaf {
+    border-bottom:  1px solid #f2f2f2;
+}
+/deep/ .el-table .cell{
+    font-size: 12px;
+    color: #333;
+} */
+
+
+/* pagination分页部分 */
+/* /deep/ .el-pager{
+    
+}
+/deep/ .el-pager li{
+    margin: 0;
+    background: #fff;
+    color: #666666;
+    width: 27px;
+    height: 29px;
+    border:1px solid #f2f2f2;
+    border-right: none;
+}
+/deep/ .el-pager li.active{
+    background-color: #409eff;
+    color: #fff;
+}
+/deep/ .el-pagination .btn-next, .el-pagination .btn-prev{
+    border:1px solid #f2f2f2;
+    width: 27px;
+    height: 29px;
+    padding: 0;
+}
+/deep/ .el-pagination .btn-prev{
+    border:1px solid #f2f2f2;
+    border-right: none;
+    width: 27px !important;
+    height: 29px;
+    padding: 0;
+}
+/deep/ .el-pagination .el-select .el-input .el-input__inner{
+    background: #ffffff;
+} */
+
+
+
+
+/* checkbox多选框 */
+/deep/ .el-checkbox__input.is-checked+.el-checkbox__label{
+    color: #333;
+}
+
+/* date日期控件 */
+/deep/ .el-range-editor.el-input__inner{
+    width: 218px;
+    height: 26px;
+    background: #f6f8f9;
+}
+/deep/ .el-date-editor .el-range__icon{
+    width: 0;
+}
+/deep/ .el-range-editor .el-range-input{
+    background: #f6f8f9;
+    font-size: 12px;
+}
+/deep/ .el-date-editor .el-range-separator{
+    line-height: 20px;
+    padding: 0;
+
+}
+/deep/ .el-date-editor .el-range__close-icon{
+    margin-bottom: 13px;
+}
+/deep/ el-date-editor--date .el-icon-circle-close::before{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+}
+/deep/ .el-date-editor>.el-input__suffix{
+    position: absolute;
+    top: -6px;
+    right: 20px;
+}
+/deep/ .el-input--prefix .el-input__inner{
+    background: #f6f8f9;
+    padding-left: 15px;
+    color: #333;
+}
+/deep/ .el-input__prefix{
+    margin-left: 190px;
+}
+/deep/ .el-icon-date:before{
+    position: absolute;
+    top: -6px;
+    right: 10px;
+}
+/deep/ el-input__suffix .el-icon-circle-close::before{
+    position: absolute;
+    right: 20px;
+}
+
+
+
+/* navmenu导航 */
+/deep/ .el-menu{
+    background: #e9eef1;
+}
+/deep/ .el-submenu .el-menu{
+    background: #dae1e5;
+}
+/deep/ .el-submenu{
+    border-left:none ;
+}
+/deep/ .is-opened{
+    border-left: 3px solid #408ffb;
+}
+/deep/ .el-submenu__title *{
+    font-size: 14px;
+}
+/deep/ .el-submenu .el-menu-item{
+    font-size: 12px;
+    color: #333;
+    height: 32px;
+    line-height: 32px;
+}
+/deep/ .el-menu-item.is-active{
+    color:#408ffb;
+}
+/deep/ .el-submenu__title {
+    height:36px;
+    line-height:36px;
+}
+/deep/  .is-opened>.el-submenu__title{
+    background: #dae1e5;
+}
+/deep/ .el-icon-arrow-down:before{
+        content: "\e6e0";
+}
+/deep/ .el-submenu.is-opened>.el-submenu__title .el-submenu__icon-arrow{
+    transform: rotateZ(-90deg);
+}
+
+/* dialog对话框 */
+/* /deep/ .el-dialog__title{
+    font-size: 16px;
+    color: #282c2f;
+    font-weight: 600;
+}
+/deep/ .el-icon-close:before{
+    content: "\e6db";
+    color: #fff;
+    width: 10px;
+    height: 10px;
+    background: rgb(127,132,151);
+    box-sizing : border-box;
+    border-radius: 50%;
+} */
+
